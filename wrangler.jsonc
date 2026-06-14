@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hono-agents-starter",
+  "main": "src/index.tsx",
+  "compatibility_date": "2026-06-14",
+  "compatibility_flags": ["nodejs_compat"],
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "CounterAgent",
+        "class_name": "CounterAgent"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["CounterAgent"]
+    }
+  ]
+}
