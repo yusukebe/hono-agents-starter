@@ -9,19 +9,19 @@
     "cf-typegen": "wrangler types --env-interface CloudflareBindings"
   },
   "dependencies": {
-    "agents": "^0.16.0",
-    "hono": "^4.12.25",
+    "agents": "^0.16.2",
+    "hono": "^4.12.27",
     "hono-agents": "^3.0.11",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "^1.40.2",
+    "@cloudflare/vite-plugin": "^1.42.2",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.2",
     "vite": "^8.0.16",
     "vite-ssr-components": "^0.6.1",
-    "wrangler": "^4.100.0"
+    "wrangler": "^4.104.0"
   }
 }
